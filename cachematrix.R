@@ -21,7 +21,6 @@ m <- NULL
 ## Write a short comment describing this function
 
 cacheSolve <- function(x, ...) {
- cacheSolve <- function(x, ...) {
   m <- x$getinv()
   if(!is.null(m)) {
     message("getting cached data")
